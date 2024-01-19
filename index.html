@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="w-full h-[700px]">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center pt-3 px-10 lg:px-[200px]">
+      <div class="logo">
+        <img src="/img/Vector Smart Object.png" alt="logo">
+      </div>
+      <div class="list_items flex items-center justify-center gap-10">
+        <div class="flex flex-col">
+          <a class="font-serif text-[12px] lg:text-[16px] text-white" href="#history">01. HISTORY</a>
+          <hr class="border-[3]">
+        </div>
+        <div>
+          <a class="font-serif text-[10px] lg:text-[16px] text-white" href="#team">02. TEAM</a>
+          <hr class="border-[3]">
+        </div>
+      </div>
+    </nav>
+    <div class="los flex justify-center items-center mt-[300px] ">
+      <h1 class="lg:text-[65px] text-center font-semibold text-[35px] w-[400px]">LOSANGELES MOUNTAINS</h1>
+    </div>
+  </header>
+  <!-- SECOND NAVBAR  -->
+  <section class="flex pt-3 p-[10px] lg:px-[200px]  justify-between items-center self-center">
+    <div class="logo p-3 flex mt-3 gap-3 items-center">
+      <img src="/img/Vector Smart Object.png" alt="logo">
+      <h3 class="w-[40px] leading-4 font-semibold text-[14px]">LOSANGELES MOUNTAINS</h3>
+    </div>
+    <div class=" flex gap-10">
+      <div class="flex flex-col">
+        <a class="font-serif text-[12px] lg:text-[16px] text-blue-950" href="#">01. HISTORY</a>
+        <hr class="border-blue-900 opacity-60 border-[2px] rounded-full text-blue-950 bg-black">
+      </div>
+      <div class="flex flex-col">
+        <a class="font-serif text-[12px] lg:text-[16px] text-blue-950" href="#">02. TEAM</a>
+        <hr class="border-blue-900 opacity-60 border-[2px] rounded-full">
+      </div>
+    </div>
+  </section>
+  <!-- HISTORY PAGE -->
+  <section class="history w-full pt-[120px]  px-10 lg:px-[220px]  relative h-[1000px]">
+    <div id="history">
+      <div class="number flex items-center gap-4">
+        <h1 class="font-semibold lg:text-[100px] opacity-50">01</h1>
+        <div class="flex flex-col justify-center">
+          <p class=" lg:text-[40px] text-blue-950 font-bold opacity-90">HISTORY</p>
+          <div class="w-[20px] h-[20px] ml-6 bg-black text-blue-950 rounded-full opacity-45"></div>
+        </div>
+      </div>
+    </div>
+    <p class="lg:text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, expedita officia omnis
+      eligendi unde fugiat, numquam molestias iure voluptates sed fuga. Similique recusandae voluptatum assumenda
+      reiciendis quidem, corrupti qui temporibus iusto debitis voluptatibus quas atque doloribus vel voluptas, tempore
+      necessitatibus!</p>
+
+  </section>
+  <!-- IMAGE CAROUSEL SECTION -->
+  <section id="team" class=" opacity-70 overlay absolute w-full mt-[-250px] h-[250px]">
+    <div
+      class="accordion flex flex-col lg:flex-row justify-center items-center pt-7  lg:justify-center lg:items-center self-center lg:pt-[60px] gap-5">
+      <div class="lg:flex gap-5 flex flex-row">
+        <img src="/img/car2.png" class="w-[150px] lg:w-[220px]" alt="carousel">
+        <img src="/img/car1.png" class="w-[150px] lg:w-[220px]" alt="carousel">
+      </div>
+      <div class="lg:flex gap-5 flex flex-row-reverse" ">
+  <img src=" /img/car2.png" class="w-[150px] lg:w-[220px]" alt="carousel">
+        <img src="/img/car1.png" class="w-[150px] lg:w-[220px]" alt="carousel">
+      </div>
+    </div>
+  </section>
+  <section class="absolute w-full h-[1000px] lg:h-[1200px] final">
+    <div
+      class="climb lg:mt-[80px] flex gap-[100px] justify-center items-center relative w-full h-[200px] px-[00px] mt-[60px] bg-white">
+      <div class="numbers_two lg:flex-row flex-col lg:m-0 m-5 gap-[-40px] lg:gap-[10px] flex items-center">
+        <h1 class="font-semibold lg:text-[100px] text-[60px] opacity-50">02</h1>
+        <div>
+          <h3 class=" lg:text-[25px] mt-[25px] text-blue-950 font-bold opacity-90">CLIMB</h3>
+          <div class="w-[20px] h-[20px] ml-6 bg-black text-blue-950 opacity-45"></div>
+        </div>
+      </div>
+      <div class="quote w-[550px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ducimus, omnis
+        accusantium minima deleniti ab odit quae perferendis laudantium! Et incidunt quas ab nam reiciendis?</div>
+    </div>
+  </section>
+  <div class="absolute flex gap-10 mx-12 mt-[300px]">
+    <div class="flex bg-slate-400 p-2 flex-col">
+      <a class="font-serif text-[12px] text-blue-950 lg:text-[18px] font-extrabold" href="#">MOUNTAIN 1</a>
+      <hr class="border-[3]">
+    </div>
+
+    <div class="flex flex-col justify-center">
+      <a class="font-serif text-[12px] lg:text-[18px] font-extrabold text-white" href="#">MOUNTAIN 2</a>
+      <hr class="border-[3]">
+    </div>
+  </div>
+
+  <!-- LAST SECTION BEFORE THE FOOTER -->
+
+  <section class="mountain flex h-[500px] lg:h-[700px] lg:px-[250px] px-[70px] self-center mt-[345px] w-full absolute">
+
+    <div
+    id="team" class="schedule h-[320px] w-[300px] lg:w-[400px]  lg:h-[300px] p-5 lg:mt-[100px] mt-[150px]  bg-white rounded-sm">
+      <h1 class="lg:text-[35px] opacity-80 text-blue-950 font-bold">SCHEDULE</h1>
+      <div class="flex gap-20 mt-5  pt-2">
+        <p>25 Nov 2016</p>
+        <p>Vestibulum Vivera</p>
+      </div>
+      <div class="flex gap-20 pt-2">
+        <p>25 Nov 2016</p>
+        <p>Vestibulum Vivera</p>
+      </div>
+      <div class="flex gap-20  pt-5">
+        <p>25 Nov 2016</p>
+        <p>Vestibulum Vivera</p>
+      </div>
+      <div class="flex gap-20  pt-5">
+        <p>25 Nov 2016</p>
+        <p>Vestibulum Vivera</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="lg:mt-[1000px] w-full flex final lg:px-[100px] justify-between items-center mt-[900px] absolute">
+    <div class="logo p-3 flex mt-3 gap-3 items-center">
+      <img src="/img/Vector Smart Object.png" alt="logo">
+      <h3 class="w-[40px] lg:leading-10 font-bold opacity-40  text-[10px]  lg:text-[24px]">LOSANGELES MOUNTAINS</h3>
+    </div>
+    <div>
+      <p class="lg:text-[18px] text-[12px]">COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
